@@ -1,3 +1,10 @@
+/*Mobile Styles */
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
 .attribution { 
     font-size: 11px; 
     text-align: center; 
@@ -9,4 +16,17 @@
 
 .header {
     background-color: white;
+    /*`ADD BG Image! - DIFFERENT FOR MOBILE & DESKTOP */
+
+}
+
+.navigation-bar img{
+    width: 300px;
+    height: 100px;
+
+}
+
+/*laptop/desktop styles */
+@media screen and (min-width: 1440px){
+    
 }
