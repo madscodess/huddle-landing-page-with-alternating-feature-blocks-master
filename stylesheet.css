@@ -1,4 +1,10 @@
 /*Mobile Styles */
+:root {
+--Pink: hsl(322, 100%, 66%);
+--VeryPaleCyan: hsl(193, 100%, 96%);
+---VeryDarkCyan: hsl(192, 100%, 9%);
+--GrayishBlue: hsl(208, 11%, 55%);
+}
 
 body {
     font-family: 'Open Sans', sans-serif;
@@ -10,20 +16,22 @@ body {
 }
     
 .attribution a { 
-    color: hsl(228, 45%, 44%); 
+    color: var(--GrayishBlue); 
 }
 
 .header {
     background-image: url(images/bg-hero-mobile.svg);
-    background: no-repeat;
-    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: var(--VeryPaleCyan);
      /*`ADD BG Image! - DIFFERENT FOR MOBILE & DESKTOP */
 }
 
 .header h1 {
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
-    color: hsl(192, 100%, 9%);
+    color: var(---VeryDarkCyan);
     text-align: center;
     margin: 90px 60px 10px 60px;
 }
@@ -32,7 +40,7 @@ body {
     text-align: center;
     font-weight: 400;
     font-size: 18px;
-    color: hsl(192, 100%, 9%);
+    color: var(---VeryDarkCyan);
     margin: 20px 50px 20px 50px;
     
 }
@@ -43,7 +51,7 @@ body {
 }
 
 .header button {
-    background-color: hsl(322, 100%, 66%);
+    background-color: var(--Pink);
     color: white;
     font-size: 18px;
     font-weight: 700;
