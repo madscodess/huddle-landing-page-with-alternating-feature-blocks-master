@@ -144,6 +144,96 @@ body {
     margin-right: auto;
 }
 
+/*CONTAINER 2 - FLOWING CONVERSATIONS */
+.flowing-conversations-container {
+    background-color: white;
+    color: white;
+    padding: 10px 10px 40px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container2 {
+    background-color: white;
+    width: 430px;
+    height: 600px;
+    border-radius: 20px;
+    margin: 0px 20px;
+    padding: 0px 0px 0px 0px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.container2 h2{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: var(---VeryDarkCyan);
+    margin: 0px;
+    
+}
+
+.container2 p {
+    font-size: 18px;
+    text-align: center;
+    color: var(--GrayishBlue);
+    margin: 20px 45px 50px 45px;
+}
+
+.container2 img {
+    width: 300px;
+    height: 250px;
+    padding: 60px 20px 20px 20px;
+    margin-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*CONTAINER 3 - YOUR USERS */
+.your-users-container {
+    background-color: white;
+    color: white;
+    padding: 10px 10px 90px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container3 {
+    background-color: white;
+    width: 430px;
+    height: 600px;
+    border-radius: 20px;
+    margin: 0px 20px 0px 20px;
+    padding: 0px 0px 0px 0px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.container3 h2{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: var(---VeryDarkCyan);
+    margin: 0px;
+    
+}
+
+.container3 p {
+    font-size: 18px;
+    text-align: center;
+    color: var(--GrayishBlue);
+    margin: 20px 45px 50px 45px;
+}
+
+.container3 img {
+    width: 300px;
+    height: 250px;
+    padding: 60px 20px 20px 20px;
+    margin-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /*laptop/desktop styles */
 @media screen and (min-width: 1440px){
     
