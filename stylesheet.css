@@ -81,6 +81,7 @@ body {
      flex-direction: row;
      justify-content: flex-end;
      padding: 15px;
+     margin-top: 0px;
 }
 
 .navigation-bar button{
@@ -88,7 +89,7 @@ body {
     border-radius: 20px;
     border: none;
     color: black;
-    font-weight: 400;
+    font-weight: 700;
     /*positioning css */
     margin-left: auto;
     margin-top: 20px;
@@ -96,7 +97,8 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    padding: 5px 30px;
+    padding: 5px 35px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
 /*CONTAINER 1 - GROW TOGETHER */
