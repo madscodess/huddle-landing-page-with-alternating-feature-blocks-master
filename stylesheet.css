@@ -9,6 +9,7 @@
 body {
     font-family: 'Open Sans', sans-serif;
     background-color: var(--VeryPaleCyan);
+    margin: 0px;
 }
 
 .attribution { 
@@ -22,12 +23,16 @@ body {
 
 .header {
       /*`ADD BG Image! - DIFFERENT FOR MOBILE & DESKTOP */
-    background-image: url(images/bg-hero-mobile.svg);
-    background-position: center;
-    background-repeat: no-repeat;
+       /*`ADD BG Image! - DIFFERENT FOR MOBILE & DESKTOP */
+       background-image: url(images/bg-hero-mobile.svg);
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: cover;
+    /*background-image: url('./images/bg-hero-desktop.svg');
     background-size: cover;
-    height: auto;
-
+    background-position: center;
+    background-color: hsl(193, 100%, 96%); */
+    padding: 20px 0;
 }
 
 .header h1 {
@@ -71,7 +76,6 @@ body {
     margin-right: auto;
 }
 
-
 .navigation-bar img{
     width: 130px;
     height: 20px;
@@ -80,7 +84,7 @@ body {
      display: flex;
      flex-direction: row;
      justify-content: flex-end;
-     padding: 15px;
+     padding: 10px 15px;
      margin-top: 0px;
 }
 
@@ -92,8 +96,8 @@ body {
     font-weight: 700;
     /*positioning css */
     margin-left: auto;
-    margin-top: 20px;
-    margin-right: 10px;
+    margin-top: 0px;
+    margin-right: 20px;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
