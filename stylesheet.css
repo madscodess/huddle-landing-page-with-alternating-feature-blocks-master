@@ -279,6 +279,30 @@ body {
     margin: 40px auto 20px auto;
 }
 
+.footer-container{
+    background-color: var(---VeryDarkCyan);
+    color: white;
+    width: auto;
+    height: 700px;
+    font-size: 18px;
+}
+
+.footer-container img {
+    color: white;
+    margin: 0px 10px 0px 0px;
+}
+
+.footer-container p {
+    color: white;
+    margin: 40px 30px 20px 30px
+}
+
+.contact-links p{
+    font-size: 18px;
+    margin: 20px 0px 0px 10px;
+    color: white;
+}
+
 /*laptop/desktop styles */
 @media screen and (min-width: 1440px){
     
