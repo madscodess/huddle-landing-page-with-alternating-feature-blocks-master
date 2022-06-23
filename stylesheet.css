@@ -279,7 +279,7 @@ body {
     margin: 40px auto 20px auto;
 }
 
-.footer-container{
+.footer-container { 
     background-color: var(---VeryDarkCyan);
     color: white;
     width: auto;
@@ -289,13 +289,37 @@ body {
 
 .footer-container img {
     color: white;
-    margin: 30px 10px 0px 0px;
-    filter: invert(100%) sepia(45%) saturate(13%) hue-rotate(223deg) brightness(105%) contrast(103%);
+    margin: 20px 40px 0px 0px;
 }
 
 .footer-container p {
     color: white;
-    margin: 40px 30px 20px 30px;
+    margin: 20px 30px 20px 30px;
+}
+
+.footer-logo {
+    background-color: var(---VeryDarkCyan);
+}
+
+.footer-logo img {
+    filter: invert(100%) sepia(45%) saturate(13%) hue-rotate(223deg) brightness(105%) contrast(103%);
+    padding: 10px;
+    margin: 40px 0px 20px 0px;
+}
+
+.location p {
+    margin: 0px 30px 0px 30px;
+    border-right: 20px;
+    padding-right: 90px;
+}
+
+.location img {
+    margin: 0px 40px 0px 0px;
+}
+
+
+.contact-links {
+    margin: 70px 0px 0px 0px;
 }
 
 .contact-links p {
