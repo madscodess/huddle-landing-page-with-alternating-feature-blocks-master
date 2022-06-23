@@ -252,12 +252,15 @@ body {
 
 .community-container1 {
     background-color: white;
-    width: 430px;
+    width: 410px;
     height: 160px;
     border-radius: 20px;
     padding: 35px 35px 40px 40px;
-    margin: 0px;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    display: inline-block;
+    position: relative;
+    margin-bottom: -50%;
+    z-index: 1;
 }
 
 .community-container1 h2{
@@ -285,6 +288,7 @@ body {
     width: auto;
     height: 900px;
     font-size: 18px;
+    margin: 0px 0px 0px 0px;
 }
 
 .footer-container img {
@@ -304,7 +308,7 @@ body {
 .footer-logo img {
     filter: invert(100%) sepia(45%) saturate(13%) hue-rotate(223deg) brightness(105%) contrast(103%);
     padding: 10px;
-    margin: 40px 0px 20px 0px;
+    margin: 250px 0px 20px 0px;
 }
 
 .location p {
