@@ -15,22 +15,22 @@ body {
 .attribution { 
     font-size: 11px; 
     text-align: center; 
+    color: white;
+    height: 50px;
+    margin: 0px;
+    background-color: var(---VeryDarkCyan);
 }
     
 .attribution a { 
-    color: var(--GrayishBlue); 
+    color: white;
 }
 
 .header {
-      /*`ADD BG Image! - DIFFERENT FOR MOBILE & DESKTOP */
+
        background-image: url(images/bg-hero-mobile.svg);
        background-position: center;
        background-repeat: no-repeat;
        background-size: cover;
-    /*background-image: url('./images/bg-hero-desktop.svg');
-    background-size: cover;
-    background-position: center;
-    background-color: hsl(193, 100%, 96%); */
     padding: 20px 0;
 }
 
@@ -50,7 +50,7 @@ body {
     margin: 40px 70px 40px 70px;
 }
 
-.header button {
+.header .btn2 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -64,7 +64,7 @@ body {
     margin: 50px auto 30px auto;
 }
 
-.header img {
+.header .img1 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -75,7 +75,7 @@ body {
     margin-right: auto;
 }
 
-.navigation-bar img{
+.header .logo {
     width: 130px;
     height: 20px;
      /*positioning css */
@@ -87,7 +87,7 @@ body {
      margin-top: 0px;
 }
 
-.navigation-bar button{
+.header .btn1{
     background-color: white;
     border-radius: 20px;
     border: none;
@@ -358,6 +358,158 @@ body {
 }
 
 /*laptop/desktop styles */
-@media screen and (min-width: 1440px){
+@media screen and (min-width: 640px){
+    body {
+        font-family: 'Open Sans', sans-serif;
+        margin: 0px;
+    }
+
+    .attribution { 
+        height: 80px;
+        margin: 0px;
+        
+    }
     
+    .header {
+           background-image: url(images/bg-hero-desktop.svg);
+           height: 900px;
+    }
+
+    
+    .header h1 {
+        text-align: left;
+        margin: 140px 1300px 0px 90px;
+        padding: 80px 0px 0px 40px;
+        
+        
+    }
+    
+    .header p {
+        font-weight: 400;
+        color: var(---VeryDarkCyan);
+        text-align: left;
+        margin: 0px 1240px 0px 90px;
+        padding: 40px;
+    }
+        
+    .header .btn2 {
+        background-color: var(--Pink);
+        color: white;
+        border: none;
+        font-size: 18px;
+        font-weight: 700;
+        float: left;
+        margin: 20px 950px 0px 120px;
+    }
+    
+    .header .img1 {
+        width: 950px;
+        height: 750px;
+        float: right;
+        margin: -500px 40px 0px 350px;
+
+    }
+    
+    .header .logo {
+        width: 130px;
+        height: 20px;
+        margin: 0px 0px 40px 20px;
+       
+    }
+    
+    .header .btn1{
+        background-color: white;
+        border-radius: 20px;
+        border: none;
+        color: black;
+        font-weight: 700;
+        padding: 5px 35px;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    }
+
+    /*containers*/
+
+    .container1 {
+        width: 1500px;
+        height: 500px;
+        padding: 0px 20px 0px 50px;
+        margin-top: 70px;
+    }
+
+    .container1 h2{
+        text-align: left;
+        margin: 150px 100px 40px 80px; 
+    }
+    
+    .container1 p {
+        text-align: left;
+        margin: 40px 90px 40px 80px;
+        padding: 0px 100px 90px 0px;
+    }
+
+    .container1 img { 
+        float: right;
+        width: 400px;
+        height: 350px;
+        padding: 60px 100px 20px 400px;
+    }
+
+    .container2 {
+        width: 1500px;
+        height: 500px;
+        padding: 0px 20px 0px 50px;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    }
+
+    .container2 h2{
+        text-align: left;
+        margin: 150px 100px 40px 80px; ;   
+    }
+    
+    .container2 p {
+        text-align: left;
+        margin: 40px 0px 40px 30px;
+        padding: 0px 100px 90px 0px;
+    }
+
+    .container2 img { 
+        float: left;
+        width: 400px;
+        height: 350px;
+        padding: 60px 400px 20px 100px;
+       
+    }
+
+    .container3 {
+        width: 1500px;
+        height: 500px;
+        padding: 0px 20px 0px 50px;
+    }
+
+    .container3 h2{
+        text-align: left;
+        margin: 150px 100px 40px 80px; ;  
+    }
+    
+    .container3 p {
+        text-align: left;
+        margin: 40px 90px 40px 80px;
+        padding: 0px 100px 90px 0px;
+    }
+
+    .container3 img { 
+        float: right;
+        width: 400px;
+        height: 350px;
+        padding: 60px 100px 20px 400px;
+    }
+
+    /*BUILD COMMUNITY CONTAINER */
+
+.community-container1 {
+    width: 550px;
+    height: 160px;
+    margin-bottom: -10%;
+}
+
 }
