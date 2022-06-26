@@ -11,6 +11,13 @@
         background-color: var(--VeryPaleCyan);
         margin: 0px;
     }
+
+    a:link {
+        text-decoration: none;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
     
     .attribution { 
         font-size: 11px; 
@@ -86,8 +93,10 @@
          padding: 10px 15px;
          margin-top: 0px;
     }
+
+
     
-    .header .btn1{
+    .header .btn1 {
         background-color: white;
         border-radius: 20px;
         border: none;
@@ -102,7 +111,10 @@
         justify-content: flex-end;
         padding: 5px 35px;
         box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        text-decoration: none;
     }
+
+
     
     /*CONTAINER 1 - GROW TOGETHER */
     .grow-together-container {
@@ -324,12 +336,14 @@
     
     .contact-links {
         margin: 70px 0px 0px 0px;
+        text-decoration: none;
     }
     
-    .contact-links p {
+    .contact-links p a {
         font-size: 18px;
         margin: 20px 0px 0px 20px;
         color: white;
+        text-decoration: none;
     }
     
     .icons {
