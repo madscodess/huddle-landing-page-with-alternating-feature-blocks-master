@@ -256,7 +256,7 @@
     .community-container {
         background-color: white;
         color: white;
-        padding: 10px 10px 90px 10px;
+        padding: 10px 10px 100px 10px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -271,7 +271,7 @@
         box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
         display: inline-block;
         position: relative;
-        margin-bottom: -50%;
+        margin-bottom: -60%;
         z-index: 1;
     }
     
@@ -291,85 +291,83 @@
         font-weight: 700;
         border-radius: 35px;
         padding: 15px 35px 15px 65px;
-        margin: 40px auto 20px auto;
+        margin: 40px auto 50px auto;
     }
     
-    .footer-container { 
+    .footer {
+        padding: 170px 20px 40px;
         background-color: var(---VeryDarkCyan);
         color: white;
-        width: auto;
-        height: 700px;
-        font-size: 18px;
-        margin: 0px 0px 0px 0px;
-    }
-    
-    .footer-container img {
-        color: white;
-        margin: 20px 40px 0px 0px;
-    }
-    
-    .footer-container p {
-        color: white;
-        margin: 20px 30px 20px 30px;
+        display: flex;
+        flex-direction: column;
     }
     
     .footer-logo {
-        background-color: var(---VeryDarkCyan);
-    }
-    
-    .footer-logo img {
         filter: invert(100%) sepia(45%) saturate(13%) hue-rotate(223deg) brightness(105%) contrast(103%);
-        padding: 10px;
-        margin: 250px 0px 20px 0px;
+        width: 50%;
+        margin-bottom: 20px;
+        margin-top: 60px;
     }
     
-    .location p {
-        margin: 0px 30px 0px 30px;
-        border-right: 20px;
-        padding-right: 90px;
+    .footer-logo > img {
+        object-fit: contain;
+        width: 100%;
     }
     
-    .location img {
-        margin: 0px 40px 0px 0px;
+    .contact-details {
+        display: flex;
+        align-items: flex-start;
+        margin: 10px;
     }
     
-    
-    .contact-links {
-        margin: 70px 0px 0px 0px;
-        text-decoration: none;
+    .contact-details > img {
+        width: 13px;
+        margin: 5px 20px 0 5px;
     }
     
-    .contact-links p a {
-        font-size: 18px;
-        margin: 20px 0px 0px 20px;
-        color: white;
-        text-decoration: none;
+    .contact-details > .description {
+        margin: 5px 20px 0 5px;
+    }
+    
+    .footer-links {
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-links-group {
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-link-item {
+        margin: 10px;
+    }
+    .footer-link-item:hover {
+        text-decoration: underline;
+    }
+    
+    .social-links {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
     }
     
     .icons {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        color: white;
-        border: 40px;
-        border-radius: 35px;
-        padding: 0px 65px 15px 65px;
-        margin: 40px auto 20px auto;
+        margin: 20px;
     }
     
-    .icons-fb{
-        margin: 0 20px 0px 0px;
-    }
-    
-    .icons-ig{
-        margin: 0 0px 0px 20px;
-    }
-    .copyright p {
+    .icons > i {
+        cursor: pointer;
+        margin: 5px;
+        border: 1px solid white;
+        border-radius: 50%;
+        width: 30px;
+        height: 30px;
         text-align: center;
-        font-size: 12px;
-        margin: 10px auto 80px auto;
-    
+        line-height: 30px;
     }
+    
+    
     
 
     /*laptop/desktop styles */
@@ -525,6 +523,32 @@
         height: 160px;
         margin-bottom: -10%;
     }
+
+    .footer {
+        padding: 200px 115px 70px;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .contact {
+        max-width: 30%;
+    }
+    .contact-details {
+        margin-left: 0;
+        margin-bottom: 30px;
+    }
+    
+    .footer-links {
+        flex-direction: row;
+    }
+    .social-links {
+        text-align: left;
+        align-items: flex-start;
+    }
+    .icons {
+        margin-left: 0;
+        margin-bottom: 150px;
+    }
+}
     
     }
 
