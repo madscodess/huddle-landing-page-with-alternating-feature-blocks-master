@@ -11,9 +11,6 @@ This is a solution to the [Huddle landing page with alternating feature blocks c
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
