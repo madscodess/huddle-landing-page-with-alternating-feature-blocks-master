@@ -2,6 +2,8 @@
 
 This is a solution to the [Huddle landing page with alternating feature blocks challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/huddle-landing-page-with-alternating-feature-blocks-5ca5f5981e82137ec91a5100). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
+Live preview of the page is [here](https://madscodess.github.io/huddle-landing-page-with-alternating-feature-blocks-master/).
+
 ## Table of contents
 
 - [Overview](#overview)
@@ -10,6 +12,7 @@ This is a solution to the [Huddle landing page with alternating feature blocks c
   - [Built with](#built-with)
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
+
 
 ## Overview
 
@@ -35,6 +38,8 @@ See screenshots folder with desktop and mobile
 ### Continued development
 
 My understanding and use of flexbox is improving however I would like to learn to implement cleaner and more consise code especailly when it comes to completing layouts.
+
+Add desktop breakpoint
 
 
 ### Useful resources
